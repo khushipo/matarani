@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+.search{
+   
+    border-radius: 20px 20px ;
+    height: 40px;
+    width: 186px;
+    padding: 5px;
+    overflow: hidden;
+    outline: white;
+    border: 2px solid rgb(224, 216, 201);
+}
+
+.search:hover{
+    background-color:rgb(233, 233, 225);
+}
+
+.box{
+  margin: auto;
+    padding: 50px;
+    display: grid;
+    place-items: center;
+    background-color: rgb(220, 220, 228) ;
+    
+    font-size: fit-content;
+    width: fit-content;
+
+}
+
+.red{
+    color: rgb(255, 0, 76);
+}
+
+.heading{
+    color: rgb(107, 22, 82);
+}
+
+#spancolor{
+    color: rgb(14, 14, 112);
+}
+.animated{
+    
+    font-size: 30px;
+
+    text-align: center;
+    animation: khushi 1s  infinite both ;
+}
+.weather_heading{
+    color: rgb(15, 102, 20);
+}
+@keyframes khushi{
+    0%{rotate: 30deg;}
+    20%{rotate: 35deg;}
+    4%{rotate: 40deg;}
+    60%{rotate: 45deg;}
+    80%{rotate: 50deg;}
+    100%{rotate: 55deg;}
+}
+
+/* $slide-count: 5;
+$slide-width: 30rem; */
+/* {$slide-count: 5;
+$slide-width: 30rem;
+} */
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  @media (max-width: 425px) {
+    font-size: 8px;
+  }
+}
+
+body {
+  font-size: 1.5rem;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.imageslider{
+    height: 500px;
+    width: 1000px;
+    background-size: cover;
+    background-color: aqua;
+    
+}
+
+.imageslider:hover{
+    height: 500px;
+    width: 400px;
+
+    background-color: antiquewhite;
+  
+    
+}
+.sliding{
+  height: 200px;
+  width: 300px;
+}
+
+
+ image {
+    background-size: cover !important;
+    height: 200px !important;
+    
+  }
+
+  .slider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .images{
+    height: 50vh;
+    width: 100%;
+  }
+  .left_arrow{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+   
+  }
+  .right_arrow{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+   
+  }
