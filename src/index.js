@@ -1,12 +1,12 @@
  
 import ReactDOM from "react-dom"
 import {Apple}  from "./usecontext"
-import {BrowserRouter} from "react-router-dom"
+// import {BrowserRouter} from "react-router-dom"
 import React from "react"
 
 
 import App from "./app"
-ReactDOM.render(<Apple><BrowserRouter><App/></BrowserRouter> </Apple>,document.getElementById('root'))
+ReactDOM.render(<Apple><App/> </Apple>,document.getElementById('root'))
 
 
 

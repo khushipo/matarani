@@ -1,10 +1,10 @@
 
-import {Routes ,Route} from "react-router-dom"
-import Layout from "./layout"
-import Blog from "./blog"
-import About from "./about"
-import Contact from "./contact"
-import Home from "./home"
+// import {Routes ,Route} from "react-router-dom"
+// import Layout from "./layout"
+// import Blog from "./blog"
+// import About from "./about"
+// import Contact from "./contact"
+// import Home from "./home"
 import Fetch from "./fetch"
 import Newprops from "./newprops"
 import Use from "./usestate"
@@ -42,7 +42,7 @@ function App(){
     <Use/>
 
    <Newprops/>
-
+{/* 
 <Routes>
     <Route path="/" element={<Layout/>}>
         <Route index element={<Home/>}/>
@@ -51,9 +51,9 @@ function App(){
         <Route path="Blog" element={<Blog/>}/>
         {/* <Route path="Props" element={<Props/>}/> */}
        
-       
-        </Route>
-</Routes>
+{/*        
+        </Route> */}
+{/* </Routes> */} 
 
     </>)
 }
